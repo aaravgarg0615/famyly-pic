@@ -1,0 +1,56 @@
+<html>
+    <head>
+        <title>project 78</title>
+    </head>
+    <link rel="stylesheet" href="style.css">
+    <body>
+        <link rel="stylesheet" href="style.css">
+        <h1>My famyly book</h1>
+       <img id = "image" src = "https://images-na.ssl-images-amazon.com/images/I/91zbi9M+mKL.jpg"></body> </img>
+       <p id = "p">book</p>
+       <button onclick =  nextslide >next</button>
+    </body>
+    <script>
+        var image = [
+        "https://lh3.googleusercontent.com/MzDWlq4YPv-vht4THHNhkd8p02ZE3IYYHg4FzeN1qLX5sE8_Oh4FhDJ_JADelNQeZ7RYPdCZeWKADFF8VJCRZNhFtO8KlM4ajfGlaBTbPADrpn_Mj3DtTagLzWj-4KYnDsZ-8rIlK7A1phRrMssdoiYG7XcfULPsymMS1iq1gfSf3ImHW86N7a5RaOy-BCGtAC8AlccKIIdgVe1-cQ7W_cwZ8VimpAbtEYPX0Yus26njNqPnHjfuH-27K3nD3K6MbGcztFbgb8Ly8EIT7-1e8LIE71jSAV4hccdJzI47yzlqLy7nhFcoAzXtCf11VUo4rZt9W-bqxPmy23Q7cP5ke3g241j8DUVt2-yvg6Ebl8L0maVUqDPThEAiBR_Njc1nMTerZO1KunkD2PMIIKm6CPWPbzYdgUwgDBNvYCYGqu-oJyqKgSFhu7t7hANkOrK1O2Iw_wouI-3U9thq_ZdfGl6RLLdPASIEAjrf7aJBN_7MX8TpzD2kSWpKUdITDG4TOUEEhqYxC1lVoom2cg0xboZ0QZqkmDxwxSk7XGtMJr9aX1goAkzOTTzwug808nk5oCfnFtUFgET-ctegnwXE9zAwHqSxsSJmR9yXH3lduJV33C-y1oal1rFMHpd_qgZ7-7ltIUzwseny4RvQ-EJyT5DKK7eFWqZR5SOl8tRGD7JrLzHyC3FhWohbmo2iUhk=w727-h969-no?authuser=0",
+        "https://lh3.googleusercontent.com/EKtzibHXZm3OLRIhcfxGx9nT2QXDj7yrbK4NySs4xadbFc1YXZb93wF_NA9eVykp2WYQyCMskRHL5Xv9G_iM87t2bltlZOr9uPtubRrKjXYJ8fXXy5PqSL5hpjHFbBpQNdfKJ0c5us3uLEBYk5jTp29UlbAQvu0oqN-pDLx9Bo0SSG6DCsn4zaygbuKIrww-9w0tk2y4OQzMptLOUIYwbUiL2wt5lYdwMSxepgdglr5yQDrVGCqzTZaFDmFyroXMMlyN7HieIIE-Lb62106hWN7xK-0f4NRFzl4kiL1fge-oyMJjRcomcOedEr80onJ5vH6Xj3nsw8fPuMAVOLauCSp9Wb0ArJa2e-jayRx6R8hgrNviC7O3OwMkFzpLF0Iq0Wz7TF971ENIHzUOa3tGPaiPDD_xoJOCIyt9B7RxmpBTstr3Lrdeh3AbMundsQbcZuZy41NBt3yYMMQdqkuiWBIih094G5R-PaJLSSL3KFZsLI08XuL4fJ7hH7ZQ_JBiKGJGwY5sE8UEoI3RGA2OR6fJSP1qsJq5-R6OFwSAIQiQARBV_UimYRay-dQ8iE98w6dfPDCNdEuXOE0gBeDaN2OrD3AEk_NpGziEjR4Lf6ZiEtCYtz1eSlqLFtdL9qg5vHVIDEXqhGEA3qZSUse6CQMEvveEKyD2m_fwXGCCaUGRelVY1V5ejvwCPCNjkw=w170-h226-no?authuser=0",
+        "https://lh3.googleusercontent.com/LCexJzMXoTPA_SkpA07WtKmw35ml_alfS_dG_qi3DGLrtuQp2Fijzeiyfgaa-JCdPBUkXA-moRB-29ZLewHuiRLDw_NS_49jd8Z4zIREeZuvreUrRy1_DKnsLdEs6zxy3JVp3DPQZfIyKcO0nNBlb9swesUtZM3721yG60BvYwLOM-8dZy5LdeTrZZ0nfTesODfBkrqY26s_HwvkgzsRHU9R9V5sjqEgvQbscJU3c3YpdSPUf0VW_iKV3bsEKPdXyxJSVuGFkhlINRklS68FG5F4S5XVmRn_R4qFcFiAHX-fSEPpmD7Cfv2embCbuOdVURYvfl61ir_YF45p885FnN8apoRmnwF5TCE1p8E0VmeHJFZ_NYdhJD7YLYu2mOHcMILbqihuVo1Tiwn9isgoaUQlaYf-Vil7PoVckSrutVsKPlrWpw1Vjv3mTm6MMX6otX0ZIN4aqUJoh3BHeCv0LCprDRMHlBL7pwbId81_0EtUyrUiCMuaAVXnjM1sVqQ0AmIug0dfDM4pU-367pbY9R36r8Z7OICA5w9-M0Rbq4w--f_ORkHNKG3xpvJjsDjLCfwg1nUrxutWrSYtc-EITux-zj018SAr6XeOryKB-6oWPHmGOg2vC9mmeBHBzT4oLpjNl-hvODCiZqZabHrPtmzA0txdlYZA2NJsnteDc5Ee930eM5aSo6FiJzzOeg=w727-h969-no?authuser=0",
+        "https://lh3.googleusercontent.com/PnycMyXcc8A_fbklF5nvT7O9IVjiRxJgvXfo0dfOYVYeKosf0fWF8UdABJ51pqW8FOSeFwpReNWhpKtth7wtopAi4f1afddvaRzIytTKQLQfLzsrn7k071BJ7UdAf1zy6Jgkb9FzLQh2VHIxxmUAQ33BkZ5XLD50hevdIynmQjQpV6cRaakL5tn1A0vJgg0SO747h4_3CHpa0_ZK7MSa_JPJuA0ElJqfBCQMKl299zWxESlN7gxarJ6f6MCerjEPJb-UtnP9oQ_TcqkzdfX8TJGNPOVe4eurfqMsu54Uz0drQHOBExHwPSSD9DZycqsN8pS2aWz6HPJHB9CQKi68b4P82F4YazKJQdWzXwtDWmZWzkQUb_ucboir1aWXmlHjDs0qOpasqvY6zFgxJ7kUFXNYxByfbNQI52AYccyCsPDV9UtUho-7-weILunqDbusO1YgwY-qTIPmNjLRL9zDpD_CweN9JRYgsy9Up-JfZh5ElTRNRrTc1sWil2j0DdHQZPrRIen6aQ3Iw0vfPRc2QjKQcEOIuJ6SXNaO5Yil2F8Hwkff4wq122u92a9hgeCvZz4F1tJsGoybR9Tn5efZDWp9Jq4xA6Ok00Tp0eaWhiVttddvu4q82d9cnlGjhnIGxpflmNVPN7xXXZolO4M11egd0fIDoUUzFTdeqBf9GAdEC0LECBoDrkcVUwATeg=w1280-h720-no?authuser=0"
+        
+
+];
+var i = 0
+function nextslide() {
+ 
+  if (i == 6)
+  {
+     i=0;
+  }
+  
+  document.getElementById("image").src = image[i];
+  i++
+  }
+  var name = [
+    "Navya",
+    "Neha",
+    "pranav",
+    "Aarav"
+];
+var i = 0
+function nextslide() {
+ 
+  if (i == 6)
+  {
+     i=0;
+  }
+  
+  document.getElementById("p").src = [i];
+  i++
+  }
+  var check = "check"
+  console.log("check")
+    </script>
+    
+    
+    
+</html>
